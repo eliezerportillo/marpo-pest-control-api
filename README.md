@@ -12,8 +12,8 @@ Marpo Pest Control API is a .NET 10 ASP.NET Core Web API for managing pest contr
 ## Run locally
 
 ```bash
-dotnet restore /home/runner/work/marpo-pest-control-api/marpo-pest-control-api/Marpo.PestControl.slnx
-dotnet run --project /home/runner/work/marpo-pest-control-api/marpo-pest-control-api/Marpo.PestControl.Api/Marpo.PestControl.Api.csproj
+dotnet restore Marpo.PestControl.slnx
+dotnet run --project Marpo.PestControl.Api/Marpo.PestControl.Api.csproj
 ```
 
 The application creates a SQLite database on first run and seeds:
